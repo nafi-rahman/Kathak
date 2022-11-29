@@ -1,9 +1,14 @@
 import { useState } from "react";
+import {
+    BrowserRouter as Router,
+    Link
+  } from "react-router-dom";
 
 function NavBar() {
     const [navbar, setNavbar] = useState(false);
 
     return (
+        <>
         <nav className="w-full bg-purple-700 bg-opacity-80 shadow sticky top-0 z-50">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
@@ -57,16 +62,16 @@ function NavBar() {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">Home</a>
+                                <Link to="/">Home</Link>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">Portfolio</a>
+                                <Link to="/about">About</Link>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">About us</a>
+                                <Link to="/portfolio">Portfolio</Link>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">Contact us</a>
+                                <Link to="/contact">Contact</Link>
                             </li>
                         </ul>
 
@@ -80,6 +85,8 @@ function NavBar() {
                 </div>
             </div>
         </nav>
+        </>
+        
     );
 }
 export default NavBar;
