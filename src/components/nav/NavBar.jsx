@@ -9,10 +9,10 @@ function NavBar() {
 
     return (
         <>
-        <nav className="w-full bg-purple-700 bg-opacity-80 shadow sticky top-0 z-50">
+        <nav className="w-full bg-slate-900 opacity-90 shadow sticky top-0 z-50">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
-                    <div className="flex items-center justify-between py-3 md:py-5 md:block">
+                    <div className="flex items-center justify-between md:py-5 md:block">
                         <a href="javascript:void(0)">
                             <h2 className="text-2xl font-bold text-white">LOGO</h2>
                         </a>

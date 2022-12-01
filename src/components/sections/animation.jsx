@@ -1,4 +1,3 @@
-import React from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
@@ -29,29 +28,17 @@ const Box = ({ num }) => {
       initial="hidden"
       animate={control}
     >
-        <h1 className="text-3xl sm:text-5xl capitalize tracking-widest text-white lg:text-7xl">Kathak studio</h1>
-      <p className="mt-6 lg:text-lg text-white">Your ideas are our responsibility to bring alive</p>
+      <h1>Box {num} </h1>
     </motion.div>
   );
 };
 
-export default function About() {
+export default function App() {
   return (
     <div className="App">
-    <section className="h-screen bg-cover bg-gradient-to-t from-slate-900 via-purple-900 to-slate-900" >
-  <div className="flex h-full w-full items-center justify-center container mx-auto px-8">
-    <div className="max-w-2xl text-center">
-      
-
-      <Box></Box>
-
-      <div className="mt-8 flex flex-col space-y-3 sm:-mx-2 sm:flex-row sm:justify-center sm:space-y-0">
-        
-      </div>
-    </div>
-  </div>
-</section>
-        
+      <Box num={1} />
+      <Box num={2} />
+      <Box num={3} />
     </div>
   );
 }

@@ -1,4 +1,45 @@
 import React from "react";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
+
+const boxVariant = {
+  visible: { opacity: 1, x:0, transition: { duration: 0.8 } },
+  hidden: { opacity: 0, x:-100 }
+};
+
+const Box = ({ num }) => {
+
+  const control = useAnimation();
+  const [ref, inView] = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      control.start("visible");
+    } else {
+      control.start("hidden");
+    }
+  }, [control, inView]);
+
+  return (
+    <motion.div
+      className="box"
+      ref={ref}
+      variants={boxVariant}
+      initial="hidden"
+      animate={control}
+    >
+       <h1
+          className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
+        >
+          Understand User Flow.
+  
+          <span className="sm:block"> Increase Conversion. </span>
+        </h1> 
+    </motion.div>
+  );
+};
+
 
 export default function FancyText () {
     return(
@@ -7,13 +48,7 @@ export default function FancyText () {
       className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center"
     >
       <div className="mx-auto max-w-3xl text-center">
-        <h1
-          className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
-        >
-          Understand User Flow.
-  
-          <span className="sm:block"> Increase Conversion. </span>
-        </h1>
+        <Box></Box>
   
         <p className="mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo
