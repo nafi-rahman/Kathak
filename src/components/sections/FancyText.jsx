@@ -8,6 +8,13 @@ const boxVariant = {
   hidden: { opacity: 0, x:-100 }
 };
 
+const boxVariant2 = {
+  visible: { opacity: 1, x:0, transition: { duration: 1 } },
+  hidden: { opacity: 0, x:-100 }
+};
+
+
+
 const Box = ({ num }) => {
 
   const control = useAnimation();
@@ -39,6 +46,34 @@ const Box = ({ num }) => {
     </motion.div>
   );
 };
+const Box2 = ({ num }) => {
+
+  const control = useAnimation();
+  const [ref, inView] = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      control.start("visible");
+    } else {
+      control.start("hidden");
+    }
+  }, [control, inView]);
+
+  return (
+    <motion.div
+      className="box"
+      ref={ref}
+      variants={boxVariant2}
+      initial="hidden"
+      animate={control}
+    >
+       <p className="mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo
+          tenetur fuga ducimus numquam ea!
+        </p>
+    </motion.div>
+  );
+};
 
 
 export default function FancyText () {
@@ -50,10 +85,7 @@ export default function FancyText () {
       <div className="mx-auto max-w-3xl text-center">
         <Box></Box>
   
-        <p className="mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo
-          tenetur fuga ducimus numquam ea!
-        </p>
+        <Box2></Box2>
   
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <a

@@ -8,6 +8,7 @@ const boxVariant = {
   hidden: { opacity: 0, scale: 1.5 }
 };
 
+
 const Box = ({ num }) => {
 
   const control = useAnimation();
