@@ -1,57 +1,32 @@
 import React from "react";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import { useEffect } from "react";
+import Testimonial from "../sections/testimonial";
 
-const boxVariant = {
-  visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
-  hidden: { opacity: 0, scale: 0 }
-};
-
-const Box = ({ num }) => {
-
-  const control = useAnimation();
-  const [ref, inView] = useInView();
-
-  useEffect(() => {
-    if (inView) {
-      control.start("visible");
-    } else {
-      control.start("hidden");
-    }
-  }, [control, inView]);
-
-  return (
-    <motion.div
-      className="box"
-      ref={ref}
-      variants={boxVariant}
-      initial="hidden"
-      animate={control}
-    >
-        <h1 className="text-3xl sm:text-5xl capitalize tracking-widest text-white lg:text-7xl">Kathak studio</h1>
-      <p className="mt-6 lg:text-lg text-white">Your ideas are our responsibility to bring alive</p>
-    </motion.div>
-  );
-};
 
 export default function About() {
   return (
-    <div className="App">
-    <section className="h-screen bg-cover bg-gradient-to-t from-slate-900 via-purple-900 to-slate-900" >
-  <div className="flex h-full w-full items-center justify-center container mx-auto px-8">
-    <div className="max-w-2xl text-center">
-      
-
-      <Box></Box>
-
-      <div className="mt-8 flex flex-col space-y-3 sm:-mx-2 sm:flex-row sm:justify-center sm:space-y-0">
-        
-      </div>
+    <>
+<div class="relative h-screen overflow-hidden bg-indigo-900">
+    <img src="https://images.unsplash.com/photo-1669872666457-d5a771c83715?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="absolute object-cover w-full h-full"/>
+    <div class="absolute inset-0 bg-black opacity-25">
     </div>
-  </div>
-</section>
-        
+    <div class="container relative z-10 flex items-center w-4/5 py-5 mx-auto my-24 border-4 border-white rounded-lg md:my-32">
+        <div class="relative z-10 flex flex-col items-center justify-between w-full">
+            <p class="flex flex-col items-center text-6xl font-extrabold text-center text-white md:text-8xl">
+                Planet need you
+            </p>
+            <p class="flex flex-col items-center max-w-lg mt-6 text-lg font-extrabold text-center text-white">
+                The first European to set eyes on the great river was a Spanish explorer, called De Soto, who came across the mouth of the river in 1541; yet it was not until over a century later that the Mississippi river began to take a significant place in the history of North America.
+            </p>
+            <a href="#" class="block px-4 py-3 mt-10 text-lg font-bold text-white uppercase bg-gray-800 hover:bg-gray-900">
+                Plant a tree
+            </a>
+        </div>
     </div>
-  );
+    <br></br>
+</div>
+<Testimonial/>
+</>
+
+
+    );
 }
