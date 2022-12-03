@@ -7,9 +7,10 @@ import {
 function NavBar() {
     const [navbar, setNavbar] = useState(false);
 
+    // sticky top-0 z-50
     return (
         <>
-        <nav className="w-full bg-slate-900 opacity-90 shadow sticky top-0 z-50">
+        <nav className="w-full bg-slate-900 opacity-90 shadow "> 
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between md:py-5 md:block">
