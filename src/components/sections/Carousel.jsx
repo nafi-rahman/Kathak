@@ -1,12 +1,12 @@
 import React from "react";
 import 'tw-elements';
-import * as React from "react";
-import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+
 
 export default function Carousel(){
   
+  
   return (
+    
     <>
     <section class="overflow-hidden bg-gray-900 text-gray-700">
   <div class="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
