@@ -2,6 +2,7 @@ import React from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
+import {Typewriter} from "react-simple-typewriter";
 
 const boxVariant = {
   visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
@@ -31,7 +32,13 @@ const Box = ({ num }) => {
       animate={control}
     >
         <h1 className="text-3xl sm:text-5xl capitalize tracking-widest text-white lg:text-7xl">Kathak studio</h1>
-      <p className="mt-6 lg:text-lg text-white">Your ideas are our responsibility to bring alive</p>
+      <p className="mt-6 lg:text-lg text-white">
+                <Typewriter
+                  words={['we are kathak studio']}
+                  typeSpeed={70}
+                  delaySpeed={1000}
+              />
+      </p>
     </motion.div>
   );
 };
