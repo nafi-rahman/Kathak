@@ -1,13 +1,12 @@
 import React from "react";
-
-export default function ShowreelItem({ title, description, link, imgUrl }) {
+import test from "/assets/test.mp4";
+export default function ShowreelItem({ title, description, link }) {
   return (
     <a href={link} class="group relative block bg-black border-4 border-black">
-  <img
-    alt="showreel"
-    src={imgUrl}
-    class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
-  />
+  <video class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50" autoPlay muted  >
+  <source src={test} type="video/mp4"/>
+  Your browser does not support the video tag.
+</video>
 
   <div class="relative p-8">
     
