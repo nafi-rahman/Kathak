@@ -8,7 +8,7 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
    return (
       
       
-      <a href={link} class="group relative block bg-black">
+      <motion.a href={link} class="group relative block bg-black">
 <img
             src={imgUrl}
             alt="portfolio" 
@@ -36,7 +36,7 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
       </div>
     </div>
   </div>
-</a>
+</motion.a>
    )
 }
 

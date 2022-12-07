@@ -2,6 +2,7 @@ import React from 'react';
 import portfolio from '../../data/portfolio';
 import PortfolioItem from './portfolioItem';
 
+
 function Portfolio() {
    return (
 

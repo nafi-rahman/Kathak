@@ -3,10 +3,11 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import {Typewriter} from "react-simple-typewriter";
+import NavBar from "../nav/NavBar";
 
 const boxVariant = {
-  visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
-  hidden: { opacity: 0, scale: 1.5 }
+  visible: { opacity: 1, scale: 1, transition: { duration: 0.8 } },
+  hidden: { opacity: 0, scale: 1 }
 };
 
 

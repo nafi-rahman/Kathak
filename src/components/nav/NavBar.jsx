@@ -10,7 +10,7 @@ function NavBar() {
     // sticky top-0 z-50
     return (
         <>
-        <nav className="w-full bg-slate-900 opacity-90 shadow "> 
+        <nav className="w-full bg-slate-900"> 
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between md:py-5 md:block">
@@ -62,16 +62,16 @@ function NavBar() {
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-white hover:text-indigo-200">
-                                <Link to="/">Home</Link>
+                            <li className="text-white hover:text-indigo-200 font-Source">
+                                <Link  to="/">Home</Link>
                             </li>
-                            <li className="text-white hover:text-indigo-200">
+                            <li className="text-white hover:text-indigo-200 font-Source">
                                 <Link to="/about">About</Link>
                             </li>
-                            <li className="text-white hover:text-indigo-200">
+                            <li className="text-white hover:text-indigo-200 font-Source">
                                 <Link to="/portfolio">Portfolio</Link>
                             </li>
-                            <li className="text-white hover:text-indigo-200">
+                            <li className="text-white hover:text-indigo-200 font-Source">
                                 <Link to="/contact">Contact</Link>
                             </li>
                         </ul>
