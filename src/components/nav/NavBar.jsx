@@ -10,13 +10,11 @@ function NavBar() {
     // sticky top-0 z-50
     return (
         <>
-        <nav className="w-full bg-slate-900"> 
+        <nav className="w-full bg-neutral-100 py-4"> 
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between md:py-5 md:block">
-                        <a href="javascript:void(0)">
-                            <h2 className="text-2xl font-bold text-white">LOGO</h2>
-                        </a>
+                        
                         <div className="md:hidden">
                             <button
                                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -25,7 +23,7 @@ function NavBar() {
                                 {navbar ? (
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        className="w-6 h-6 text-white"
+                                        className="w-6 h-6 text-[#205c6c]"
                                         viewBox="0 0 20 20"
                                         fill="currentColor"
                                     >
@@ -38,7 +36,7 @@ function NavBar() {
                                 ) : (
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        className="w-6 h-6 text-white"
+                                        className="w-6 h-6 text-[#205c6c]"
                                         fill="none"
                                         viewBox="0 0 24 24"
                                         stroke="currentColor"
@@ -62,16 +60,16 @@ function NavBar() {
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-white hover:text-indigo-200 font-Source">
+                            <li className="text-[#205c6c] hover:text-slate-900 font-Source">
                                 <Link  to="/">Home</Link>
                             </li>
-                            <li className="text-white hover:text-indigo-200 font-Source">
+                            <li className="text-[#205c6c] hover:text-slate-900 font-Source">
                                 <Link to="/about">About</Link>
                             </li>
-                            <li className="text-white hover:text-indigo-200 font-Source">
+                            <li className="text-[#205c6c] hover:text-slate-900 font-Source">
                                 <Link to="/portfolio">Portfolio</Link>
                             </li>
-                            <li className="text-white hover:text-indigo-200 font-Source">
+                            <li className="text-[#205c6c] hover:text-slate-900 font-Source">
                                 <Link to="/contact">Contact</Link>
                             </li>
                         </ul>

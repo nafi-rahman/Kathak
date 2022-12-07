@@ -7,9 +7,10 @@ import Video from "../sections/video";
 export default function Contact() {
   return (
     <div>
+      <ContactL />
+      <Video />
       
-      <ContactL/>
-      <Video/>
+
     </div>
   );
 }
