@@ -42,7 +42,7 @@ export default function HeroSection() {
     <div className="max-w-full text-center relative">
       
 
-    <motion.svg className="mt-10 ml-2" xmlns="http://www.w3.org/2000/svg" width={350} height={100} viewBox="0 0 393 121" fill="none"
+    <motion.svg className="mt-10 ml-2" xmlns="http://www.w3.org/2000/svg" width={320} height={80} viewBox="0 0 393 121" fill="none"
       initial="hidden"
       animate="visible"
     >
@@ -58,6 +58,13 @@ export default function HeroSection() {
           
         />
       </motion.svg>
+      <p className="tracking-widest text-3xl text-[#205C6C] font-playfair mt-4">
+                <Typewriter
+                  words={['LIVE CREATIVE']}
+                  typeSpeed={100}
+                  delaySpeed={10}
+              />
+      </p>
       
       <div className="mt-8 flex flex-col space-y-3 sm:-mx-2 sm:flex-row sm:justify-center sm:space-y-0">
         

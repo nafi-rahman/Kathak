@@ -10,7 +10,7 @@ function NavBar() {
     // sticky top-0 z-50
     return (
         <>
-        <nav className="w-full bg-neutral-100 py-4"> 
+        <nav className="w-full bg-neutral-50 py-4"> 
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between md:py-5 md:block">
