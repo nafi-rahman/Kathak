@@ -15,11 +15,11 @@ export default function Abouts() {
               <div className="items-center flex flex-wrap">
                 <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                   <div className="px-12">
-                    <h1 className="text-black font-semibold text-5xl font-playfair">
+                    <h1 className="text-[#205C6C] font-semibold text-5xl font-playfair">
                       Your story starts with us.
                     </h1>
                     <br></br>
-                    <p className="mt-4 text-lg text-black font-Source">
+                    <p className="mt-4 text-lg text-[#205C6C] font-Source">
                       This is a simple example of a Landing Page you can build
                       using Tailwind Starter Kit. It features multiple CSS
                       components based on the Tailwindcss design system.
@@ -266,7 +266,7 @@ export default function Abouts() {
           </div>
         </section>
 
-        <section className="pb-20 relative block bg-gray-900">
+        <section className="pb-20 relative block bg-neutral-50">
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
             style={{ height: "80px" }}
@@ -281,7 +281,7 @@ export default function Abouts() {
               y="0"
             >
               <polygon
-                className="text-gray-900 fill-current"
+                className="text-neutral-50 fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
@@ -290,10 +290,10 @@ export default function Abouts() {
           <div className="container mx-auto px-4 lg:pt-24 lg:pb-64">
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold text-white">
+                <h2 className="text-4xl font-semibold text-[#205C6C] font-playfair">
                   Build something
                 </h2>
-                <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
+                <p className="text-lg leading-relaxed mt-4 mb-4 text-[#205C6C] font-Source">
                   Put the potentially record low maximum sea ice extent tihs year down to low ice.
                   According to the National Oceanic and Atmospheric Administration, Ted, Scambos.
                 </p>
@@ -304,10 +304,10 @@ export default function Abouts() {
                 <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
                   <i className="fas fa-medal text-xl"></i>
                 </div>
-                <h6 className="text-xl mt-5 font-semibold text-white">
+                <h6 className="text-xl mt-5 font-semibold text-[#205C6C] font-playfair">
                   Excelent Services
                 </h6>
-                <p className="mt-2 mb-4 text-gray-500">
+                <p className="mt-2 mb-4 text-[#205C6C] font-Source">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
@@ -316,10 +316,10 @@ export default function Abouts() {
                 <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
                   <i className="fas fa-poll text-xl"></i>
                 </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
+                <h5 className="text-xl mt-5 font-semibold text-[#205C6C] font-playfair">
                   Grow your market
                 </h5>
-                <p className="mt-2 mb-4 text-gray-500">
+                <p className="mt-2 mb-4 text-[#205C6C] font-Source">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
@@ -328,10 +328,10 @@ export default function Abouts() {
                 <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
                   <i className="fas fa-lightbulb text-xl"></i>
                 </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
+                <h5 className="text-xl mt-5 font-semibold text-[#205C6C] font-playfair">
                   Launch time
                 </h5>
-                <p className="mt-2 mb-4 text-gray-500">
+                <p className="mt-2 mb-4 text-[#205C6C] font-Source">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
