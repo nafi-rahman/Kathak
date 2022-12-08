@@ -6,6 +6,7 @@ import Home from './components/pages/home'
 import About from './components/pages/aboutus'
 import Contact from './components/pages/contact'
 import Portfoliop from './components/pages/Portfoliop'
+import Modal from './components/sections/modal'
 function App() {
   
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/portfolio" element={<Portfoliop/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/modal' element={<Modal/>}/>
       </Routes>
       <Footer/>
     </div>
