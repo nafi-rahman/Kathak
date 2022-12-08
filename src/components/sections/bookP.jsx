@@ -21,6 +21,8 @@ export default function Bookp() {
         </div>
         </Link>
       </motion.a>
+      
+      <Link to="/modalFilm">
       <motion.a href="#" className="w-full relative block overflow-hidden  bg-[url('/assets/kaptai.jpg')] bg-cover bg-center bg-no-repeat"
          whileHover={{ scale: 1.01,opacity: 0.9 }}
       >
@@ -30,6 +32,9 @@ export default function Bookp() {
           
         </div>
       </motion.a>
+      </Link>
+
+      <Link to="/modalShort">
       <motion.a href="#" className="w-full relative block overflow-hidden  bg-[url('/assets/bandarban.jpg')] bg-cover bg-center bg-no-repeat"
          whileHover={{ scale: 1.01,opacity: 0.9 }}
       >
@@ -39,6 +44,7 @@ export default function Bookp() {
           
         </div>
       </motion.a>
+      </Link>
         </div>
         
     );

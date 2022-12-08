@@ -9,7 +9,7 @@ export default function Showreel() {
         <div className="grid grid-rows-3 grid-flow-col gap-4 py-10 bg-[#eaebeb]">
         <div className="row-span-1"></div>
         <div className="row-span-3"> 
-        <h3 className="text-4xl font-bold text-center font-playfair text-[#33636c]">H&nbsp;E&nbsp;L&nbsp;L&nbsp;O&nbsp;,&nbsp;&nbsp;W&nbsp;A&nbsp;N&nbsp;N&nbsp;A&nbsp;&nbsp;&nbsp;K&nbsp;N&nbsp;O&nbsp;W&nbsp;&nbsp;U&nbsp;S&nbsp;?</h3>
+        <h3 className="lg:text-4xl md:text-2xl sm:text-xl  font-bold text-center font-playfair text-[#33636c]">H&nbsp;E&nbsp;L&nbsp;L&nbsp;O&nbsp;,&nbsp;&nbsp;W&nbsp;A&nbsp;N&nbsp;N&nbsp;A&nbsp;&nbsp;&nbsp;K&nbsp;N&nbsp;O&nbsp;W&nbsp;&nbsp;U&nbsp;S&nbsp;?</h3>
         </div>
         <div className="row-span-1"></div>
         </div>

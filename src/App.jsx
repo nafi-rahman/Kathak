@@ -7,6 +7,8 @@ import About from './components/pages/aboutus'
 import Contact from './components/pages/contact'
 import Portfoliop from './components/pages/Portfoliop'
 import Modal from './components/sections/modal'
+import Modalfilm from './components/sections/modalFilm'
+import Modalshort from './components/sections/modalShort'
 function App() {
   
 
@@ -19,6 +21,9 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/modal' element={<Modal/>}/>
+        <Route path='/modalFilm' element={<Modalfilm/>}/>
+        <Route path='/modalShort' element={<Modalshort/>}/>
+
       </Routes>
       <Footer/>
     </div>
