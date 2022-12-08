@@ -5,7 +5,7 @@ import showreel from "../../data/showreel";
 export default function Showreel() {
     
     return (
-        <>
+        <div >
         <div className="grid grid-rows-3 grid-flow-col gap-4 py-10 bg-[#eaebeb]">
         <div className="row-span-1"></div>
         <div className="row-span-3"> 
@@ -28,7 +28,7 @@ export default function Showreel() {
             </div>
             <div className="row-span-1"></div>
         </div>
-        </>
-
+        <div/>
+        </div>
     )
 }
