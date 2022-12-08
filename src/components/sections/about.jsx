@@ -8,17 +8,18 @@ export default function Abouts() {
             style={{
               minHeight: "75vh"
             }}>
-          <div className="absolute top-0 w-full h-full bg-white"
+          <div className="absolute top-0 w-full h-full bg-neutral-50"
             >
           </div>
           <div className="container relative mx-auto">
               <div className="items-center flex flex-wrap">
                 <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                  <div className="pr-12">
-                    <h1 className="text-black font-semibold text-5xl">
+                  <div className="px-12">
+                    <h1 className="text-black font-semibold text-5xl font-playfair">
                       Your story starts with us.
                     </h1>
-                    <p className="mt-4 text-lg text-black">
+                    <br></br>
+                    <p className="mt-4 text-lg text-black font-Source">
                       This is a simple example of a Landing Page you can build
                       using Tailwind Starter Kit. It features multiple CSS
                       components based on the Tailwindcss design system.
@@ -36,7 +37,7 @@ export default function Abouts() {
           </div>
         </div>
 
-        <section className="py-20 bg-gray-300 -mt-24">
+        <section className="py-20 bg-[#205C6C] -mt-24">
           <div className="container mx-auto px-4">
             
 
@@ -44,30 +45,24 @@ export default function Abouts() {
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
                 
-                <h3 className="text-3xl mb-2 font-semibold leading-normal">
+                <h3 className="text-3xl mb-2 font-semibold leading-normal text-neutral-50 font-playfair">
                   Working with us is a pleasure
                 </h3>
-                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700 pt-10">
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-neutral-50 pt-10 font-Source">
                   Don't let your uses guess by attaching tooltips and popoves
                   to any element. Just make sure you enable them first via
                   JavaScript.
                 </p>
-                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700 pt-10">
+                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-neutral-50 pt-10 font-Source">
                   The kit comes with three pre-built pages to help you get
                   started faster. You can change the text and images and
                   you're good to go. Just make sure you enable them first via
                   JavaScript.
                 </p>
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-                  className="font-bold text-gray-800 mt-8"
-                >
-                  Check Tailwind Starter Kit!
-                </a>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-pink-600">
+                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-neutral-50">
                   <img
                     alt="..."
                     src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
@@ -86,13 +81,13 @@ export default function Abouts() {
                     >
                       <polygon
                         points="-30,95 583,95 583,65"
-                        className="text-pink-600 fill-current"
+                        className="text-neutral-50 fill-current"
                       ></polygon>
                     </svg>
-                    <h4 className="text-xl font-bold text-white">
+                    <h4 className="text-xl font-bold text-[#205C6C] font-playfair">
                       Top Notch Services
                     </h4>
-                    <p className="text-md font-light mt-2 text-white">
+                    <p className="text-md  mt-2 text-[#205C6C] font-Source">
                       The Arctic Ocean freezes every winter and much of the
                       sea-ice then thaws every summer, and that process will
                       continue whatever happens.
@@ -137,9 +132,7 @@ export default function Abouts() {
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
-                  <div className="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
-                    <i className="fas fa-rocket text-xl"></i>
-                  </div>
+                  
                   <h3 className="text-3xl font-semibold">
                     A growing company
                   </h3>
