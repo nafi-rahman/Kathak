@@ -1,61 +1,47 @@
 import React from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Slider from "react-slick";
 
 export default function AnimateTest() {
-    return (
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    
+  }  
+  return (
+      
         <>
-            <motion.h1 className="font-bold text-4xl font-source-sans-pro"
-                animate={{x: 100, opacity: 1}}
-            >
-              WHERES RECOGNITION OF 
-            </motion.h1>
-            <motion.h1 className="font-bold text-4xl font-playfair"
-                animate={{x: 100, opacity: 1}}
-            >
-              WHERES RECOGNITION OF 
-            </motion.h1>
-
-            <motion.p className=" font-source-sans-pro"
-                animate={{x: 100, opacity: 1}}
-            >
-              WHERES RECOGNITION OF 
-            </motion.p>
-            <motion.p className=" font-playfair"
-                animate={{x: 100, opacity: 1}}
-            >
-              WHERES RECOGNITION OF 
-            </motion.p>
-
-
-
-
-            <div
-      className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center"
-    >
-      <div className="mx-auto max-w-3xl text-center">
-        
-        <Box></Box>
-  
-        <Box2></Box2>
-  
-        <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <a
-            className="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-            href="/get-started"
-          >
-            Get Started
-          </a>
-  
-          <a
-            className="block w-full rounded border border-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-            href="/about"
-          >
-            Learn More
-          </a>
-        </div>
-      </div>
-    </div>
+          <div>
+        <h2> Single Item</h2>
+        <Slider {...settings}>
+          <div>
+          <h1>1</h1>
+            
+          </div>
+          <div>
+            
+              <img src="/public/assets/bandarban.jpg"></img>
+            
+          </div>
+          <div>
+            <h3>3</h3>
+          </div>
+          <div>
+            <h3>4</h3>
+          </div>
+          <div>
+            <h3>5</h3>
+          </div>
+          <div>
+            <h3>6</h3>
+          </div>
+        </Slider>
+      </div>    
         </>
     )
 }

@@ -9,7 +9,7 @@ export default function Contact() {
     <div>
       <ContactL />
       <Video />
-      
+      <AnimateTest/>
 
     </div>
   );
