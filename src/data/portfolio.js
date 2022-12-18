@@ -7,7 +7,7 @@ export default [
     },
     {
        title: 'Developer Portfolio',
-       imgUrl: '/assets/bandarban.jpg',
+       imgUrl: '/assets/renu.jpg',
        stack: ['React', 'Tailwind', 'Vite'],
        link: '',
     },

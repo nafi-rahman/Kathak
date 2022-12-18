@@ -35,7 +35,7 @@ const Box = ({ num }) => {
       animate={control}
     >
       <h1 className="text-[#205C6C] font-semibold text-5xl font-playfair py-10">
-          What do we do?
+          Who are we?
       </h1>
     </motion.div>
   );
@@ -61,8 +61,11 @@ const Box2 = ({ num }) => {
       initial="hidden"
       animate={control}
     >
-       <p className="mx-auto mt-4 max-w-xl sm:text-xl font-source">
-       The most efficient method of interaction throughout human history has been through art. In the contemporary era, film has arisen as a branch of technical art, the "camera eye" section of the arts, which also includes other forms of expression including drama, music, photography, and writing. Film has become an increasingly integral part of people's lives since the advent of the motion picture recorder at the turn of the 20th century. Film has a variety of purposes beyond simple entertainment, including those to persuade, inform, inspire, portray, create and influence opinions, prompt thoughtful reflection and social duty, and even to disseminate propaganda.
+       <p className="mx-auto mt-4 max-w-xl sm:text-xl font-source text-left">
+       With one word in our heart and mind, we started our journey. Change. Changing what? Changing the way we look at the world. Breaking the stigmas that are hurting groups of individuals for centuries and so on. We want to help the majority to unlearn the behaviours that they learnt from society without even acknowledging they are harmful. The question you may ask is, what makes us responsible? 
+       </p>
+       <p className="mx-auto mt-4 max-w-xl sm:text-xl font-source text-left">
+We believe, if you want to be responsible for something, be. Let the people decide if you are worth it or not. So, if you want to be a part of the change, if you want to design the revolution that may make the places around us a bit better than today, be with us or lead us, towards a world where frustration will become a privilege for everyone.
 
         </p>
     </motion.div>

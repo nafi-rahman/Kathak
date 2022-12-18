@@ -6,10 +6,10 @@ export default function Showreel() {
     
     return (
         <div >
-        <div className="grid grid-rows-3 grid-flow-col gap-4 py-10 bg-[#eaebeb]">
+        <div className="grid grid-rows-3 grid-flow-col gap-4 p-10 bg-[#eaebeb]">
         <div className="row-span-1"></div>
         <div className="row-span-3"> 
-        <h3 className="lg:text-4xl md:text-2xl sm:text-xl  font-bold text-center font-playfair text-[#33636c]">H&nbsp;E&nbsp;L&nbsp;L&nbsp;O&nbsp;,&nbsp;&nbsp;W&nbsp;A&nbsp;N&nbsp;N&nbsp;A&nbsp;&nbsp;&nbsp;K&nbsp;N&nbsp;O&nbsp;W&nbsp;&nbsp;U&nbsp;S&nbsp;?</h3>
+        <h3 className="lg:text-4xl md:text-2xl sm:text-xl  font-bold text-center font-playfair text-[#33636c] py-5">A sample of what we do</h3>
         </div>
         <div className="row-span-1"></div>
         </div>
@@ -17,16 +17,13 @@ export default function Showreel() {
         <div className="grid grid-rows-3 grid-flow-col gap-4 py-10 bg-[#eaebeb]">
         <div className="row-span-1"></div>
             <div className="row-span-3 p-10 bg-black">
-                {showreel.map(item => (
-                    <ShowreelItem
-                        title={item.title}
-                        description={item.description}
-                        link={item.link}
-                        imgUrl={item.imgUrl}
-                    />
-                ))}
+                
+                    <ShowreelItem/>
+                
             </div>
+            
             <div className="row-span-1"></div>
+            
         </div>
         <div/>
         </div>

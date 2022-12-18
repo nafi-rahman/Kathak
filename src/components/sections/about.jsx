@@ -202,9 +202,20 @@ export default function Abouts() {
 
         <div className="w-full max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 pt-10">
             <div className="flex flex-col items-center pb-10">
-                <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image" />
+                <img className="w-24 h-24 mb-3 rounded-full shadow-lg object-cover" src="/assets/sian.jpg" alt="Bonnie image" />
                 <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Saad mahmud</h5>
-                <span className="text-sm text-gray-500 dark:text-gray-400">Visual Designer</span>
+                <span className="text-sm text-gray-500 dark:text-gray-400">Creative Director</span>
+                <div className="flex mt-4 space-x-3 md:mt-6">
+                    <p>hello</p>
+                </div>
+            </div>
+      </div>
+
+      <div className="w-full max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 pt-10">
+            <div className="flex flex-col items-center pb-10">
+                <img className="w-24 h-24 mb-3 rounded-full shadow-lg object-cover" src="/assets/fardin.jpeg" alt="Bonnie image" />
+                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Fardin Mahmud</h5>
+                <span className="text-sm text-gray-500 dark:text-gray-400">Associate Creative Director</span>
                 <div className="flex mt-4 space-x-3 md:mt-6">
                     <p>hello</p>
                 </div>
@@ -214,19 +225,8 @@ export default function Abouts() {
       <div className="w-full max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 pt-10">
             <div className="flex flex-col items-center pb-10">
                 <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image" />
-                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Bonnie Green</h5>
-                <span className="text-sm text-gray-500 dark:text-gray-400">Visual Designer</span>
-                <div className="flex mt-4 space-x-3 md:mt-6">
-                    <p>hello</p>
-                </div>
-            </div>
-      </div>
-
-      <div className="w-full max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 pt-10">
-            <div className="flex flex-col items-center pb-10">
-                <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image" />
-                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Bonnie Green</h5>
-                <span className="text-sm text-gray-500 dark:text-gray-400">Visual Designer</span>
+                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Sayed Anwar Raju</h5>
+                <span className="text-sm text-gray-500 dark:text-gray-400">Managing Director</span>
                 <div className="flex mt-4 space-x-3 md:mt-6">
                     <p>hello</p>
                 </div>
