@@ -15,24 +15,22 @@ export default function Portfoliop() {
           </div>
         </div>
       </section>
-  <div className="h-96 w-full bg-center bg-no-repeat bg-cover bg-[#205C6C]">
-  
-    {/* This div will have a blue background color, and the image will be the background image */}
-    <div
-      className="h-full w-full flex items-center justify-center text-black font-bold text-3xl text-center"
-      
-    >
-      <p class="w-1/2 text-neutral-200 text-xl font-Source">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste et voluptate repellat, magni suscipit odio in perspiciatis similique fugit quidem! Eligendi, tempora dignissimos vitae asperiores consectetur porro incidunt aperiam non.
+      <div className=" grid-cols-2 grid-flow-row bg-[#205C6C] h-screen relative flex items-center justify-center">
+<p class="w-1/2 text-neutral-200 text-xl font-Source">
+Do you know, the process behind the creation of art is sometimes more dramatic and more artistic than the project itself? How do individuals with totally different creative preferences come together and share the same vision and how they work like organs of a human body in order to make the body move and do something extraordinary that wasn’t possible if any of  the organs would fail? <br></br>
+<br></br>
+We want to thank all the hard working and talented individuals who worked relentlessly hard day and night to make these visions come true on a screen. And we promise you, in a world where even the strongest do often fall, you will never have to walk alone.
   </p>
-    
-    </div>
-    
-  </div>
   
-  <section class="overflow-hidden bg-white text-gray-700 py-10">
   
-  <div class="bg-white h-64 flex flex-col items-center justify-center">
+        <svg className="w-full h-16 absolute bottom-0 left-0 right-0" viewBox="0 0 100 100" preserveAspectRatio="none" fill="#fafafa">
+          <path d="M0 100 C 60 0 70 0 150 100 Z" />
+        </svg>
+      </div>
+  
+  <section class="overflow-hidden bg-neutral-50 text-[#205C6C] py-10">
+  
+  <div class="bg-neutral-50 h-64 flex flex-col items-center justify-center">
   
   <h1 className="text-5xl lg:text-5xl md:text-4xl  sm:text-3xl xs:2xl font-bold mt-10 font-playfair">Here is some of our work</h1>
 
@@ -45,14 +43,7 @@ export default function Portfoliop() {
   <div className="py-10"></div>
 </section>
 
-<div className="bg-blue-500 h-screen relative flex items-center justify-center">
-<p class="w-1/2 text-neutral-200 text-xl font-Source">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste et voluptate repellat, magni suscipit odio in perspiciatis similique fugit quidem! Eligendi, tempora dignissimos vitae asperiores consectetur porro incidunt aperiam non.
-  </p>
-        <svg className="w-full h-16 absolute bottom-0 left-0 right-0" viewBox="0 0 100 100" preserveAspectRatio="none" fill="white">
-          <path d="M0 100 C 60 0 70 0 150 100 Z" />
-        </svg>
-      </div>
+
       
         </>
     );

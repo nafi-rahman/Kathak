@@ -8,7 +8,7 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
    return (
       
       
-      <motion.a href={link} class="group relative block bg-black">
+      <motion.a  whileHover={{scale: 1.02}} href={link} className="group relative block bg-black">
 <img
             src={imgUrl}
             alt="portfolio" 
