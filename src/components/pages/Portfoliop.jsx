@@ -54,8 +54,6 @@ export default function Portfoliop() {
         </svg>
       </div>
       
-
-      
         </>
     );
 }
