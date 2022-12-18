@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
 const boxVariant = {
-  visible: { opacity: 1, x:0, transition: { duration: 0.8 } },
+  visible: { opacity: 1, x:0, transition: { duration: 0.5 } },
   hidden: { opacity: 0, x:-100 }
 };
 
@@ -34,13 +34,9 @@ const Box = ({ num }) => {
       initial="hidden"
       animate={control}
     >
-       <h1
-          className="bg-gradient-to-r from-green-300 to-blue-500 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
-        >
-          Understand User Flow.
-  
-          <span className="sm:block"> Increase Conversion. </span>
-        </h1> 
+      <h1 className="text-[#205C6C] font-semibold text-5xl font-playfair py-10">
+          What do we do?
+      </h1>
     </motion.div>
   );
 };
@@ -65,9 +61,9 @@ const Box2 = ({ num }) => {
       initial="hidden"
       animate={control}
     >
-       <p className="mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo
-          tenetur fuga ducimus numquam ea!
+       <p className="mx-auto mt-4 max-w-xl sm:text-xl font-source">
+       The most efficient method of interaction throughout human history has been through art. In the contemporary era, film has arisen as a branch of technical art, the "camera eye" section of the arts, which also includes other forms of expression including drama, music, photography, and writing. Film has become an increasingly integral part of people's lives since the advent of the motion picture recorder at the turn of the 20th century. Film has a variety of purposes beyond simple entertainment, including those to persuade, inform, inspire, portray, create and influence opinions, prompt thoughtful reflection and social duty, and even to disseminate propaganda.
+
         </p>
     </motion.div>
   );

@@ -8,22 +8,22 @@ export default function Abouts() {
             style={{
               minHeight: "75vh"
             }}>
-          <div className="absolute top-0 w-full h-full bg-neutral-50"
-            >
+          <div className="absolute top-0 w-full h-full bg-neutral-50">
+
           </div>
           <div className="container relative mx-auto">
               <div className="items-center flex flex-wrap">
-                <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                <div className="w-1/2 lg:w-1/2 px-4 ml-auto mr-auto text-center">
                   <div className="px-12">
-                    <h1 className="text-[#205C6C] font-semibold text-5xl font-playfair">
-                      Your story starts with us.
+                    <h1 className="text-[#205C6C] font-semibold text-5xl font-playfair py-10">
+                    What do we do?
                     </h1>
                     <br></br>
                     <p className="mt-4 text-lg text-[#205C6C] font-Source">
-                      This is a simple example of a Landing Page you can build
-                      using Tailwind Starter Kit. It features multiple CSS
-                      components based on the Tailwindcss design system.
+                    As a film studio we have chosen to create such art with social impacts. To us, creating a film is more than a part of entertainment. We are here to tell the stories that makes you “YOU”, the stories that has a purpose to serve people a better insight, the stories that will leave someone swirling in his/her own thoughts and last but not the least, the stories that will inspire people to live creatively. The mixture of bringing goodness to the society and urge to remove skeptical thoughts is what makes us a strong team as the Kathaks.
+
                     </p>
+
                   </div>
                 </div>
 
@@ -46,26 +46,25 @@ export default function Abouts() {
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
                 
                 <h3 className="text-3xl mb-2 font-semibold leading-normal text-neutral-50 font-playfair">
-                  Working with us is a pleasure
+                 Our vision
                 </h3>
-                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-neutral-50 pt-10 font-Source">
-                  Don't let your uses guess by attaching tooltips and popoves
-                  to any element. Just make sure you enable them first via
-                  JavaScript.
+                <p className="text-lg  leading-relaxed mt-4 mb-4 text-neutral-50 pt-10 font-Source">
+                From many aspects of creation of art through the lens of the cameras, we want to ignore the tendency of recreating masterpieces and rather make our own masterpiece. The cultural shift of southern people with the taste of east and west has created an urge among us to enjoy the modern era with the pleasure of our roots. So our vision is to create motion pictures without getting dazzled with the shiny modernization. So, that people will be able to connect the whole production with their day to day lives.
+
                 </p>
-                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-neutral-50 pt-10 font-Source">
+                {/* <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-neutral-50 pt-10 font-Source">
                   The kit comes with three pre-built pages to help you get
                   started faster. You can change the text and images and
                   you're good to go. Just make sure you enable them first via
                   JavaScript.
-                </p>
+                </p> */}
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-neutral-50">
                   <img
                     alt="..."
-                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+                    src="/assets/kathak.png"
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
@@ -84,13 +83,11 @@ export default function Abouts() {
                         className="text-neutral-50 fill-current"
                       ></polygon>
                     </svg>
-                    <h4 className="text-xl font-bold text-[#205C6C] font-playfair">
+                    {/* <h4 className="text-xl font-bold text-[#205C6C] font-playfair">
                       Top Notch Services
-                    </h4>
+                    </h4> */}
                     <p className="text-md  mt-2 text-[#205C6C] font-Source">
-                      The Arctic Ocean freezes every winter and much of the
-                      sea-ice then thaws every summer, and that process will
-                      continue whatever happens.
+                    The word “Kathak” itself describes our mission which means a storyteller. We believe that our creative excellence can be reflected in our client’s potentiality. 
                     </p>
                   </blockquote>
                 </div>
@@ -127,19 +124,18 @@ export default function Abouts() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                  src="/assets/studio.jpg"
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
                   
                   <h3 className="text-3xl font-semibold font-playfair">
-                    A growing company
+                    Our mission
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-600 font-Source">
-                    The extension comes with three pre-built pages to help you
-                    get started faster. You can change the text and images and
-                    you're good to go.
+                  As a film studio, we have a general mission to depict a story in a creative way. We are here to provide facilities to create any sort of motion pictures. There’s a famous saying of Stanly Kubrick “If it can be written, or thought, can be filmed”. The studio facilities show the credibility in the part of execution of this saying. With due respect to art, the thought of leaving a visual footprint is our core responsibility with a mission to create the art that connects people.
+
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
@@ -151,7 +147,7 @@ export default function Abouts() {
                         </div>
                         <div>
                           <h4 className="text-gray-600 font-Source">
-                            Carefully crafted components
+                            Creative excellence
                           </h4>
                         </div>
                       </div>
@@ -164,7 +160,7 @@ export default function Abouts() {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-gray-600 font-Source">Amazing page examples</h4>
+                          <h4 className="text-gray-600 font-Source">Bringing stories to life</h4>
                         </div>
                       </div>
                     </li>
@@ -176,7 +172,7 @@ export default function Abouts() {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-gray-600 font-Source">Dynamic components</h4>
+                          <h4 className="text-gray-600 font-Source">Unbiased and unique</h4>
                         </div>
                       </div>
                     </li>
@@ -196,9 +192,7 @@ export default function Abouts() {
                   Here are our heroes
                 </h2>
                 <p className="text-lg leading-relaxed m-4 text-neutral-50 font-Source">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record maximum.
+                  The team at kathak that makes all of this possible, turining ideas into reality and pushing the barrier of what's possible and what's not.
                 </p>
               </div>
             </div>
@@ -209,7 +203,7 @@ export default function Abouts() {
         <div className="w-full max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 pt-10">
             <div className="flex flex-col items-center pb-10">
                 <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image" />
-                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Bonnie Green</h5>
+                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Saad mahmud</h5>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Visual Designer</span>
                 <div className="flex mt-4 space-x-3 md:mt-6">
                     <p>hello</p>
@@ -266,7 +260,7 @@ export default function Abouts() {
           </div>
         </section>
 
-        <section className="pb-20 relative block bg-neutral-50">
+        <section className="relative block bg-neutral-50 pt-20">
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
             style={{ height: "80px" }}
@@ -291,55 +285,47 @@ export default function Abouts() {
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold text-[#205C6C] font-playfair">
-                  Build something
+                What makes us different?
                 </h2>
-                <p className="text-lg leading-relaxed mt-4 mb-4 text-[#205C6C] font-Source">
+                {/* <p className="text-lg leading-relaxed mt-4 mb-4 text-[#205C6C] font-Source">
                   Put the potentially record low maximum sea ice extent tihs year down to low ice.
                   According to the National Oceanic and Atmospheric Administration, Ted, Scambos.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="flex flex-wrap mt-12 justify-center">
               <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                  <i className="fas fa-medal text-xl"></i>
-                </div>
+                
                 <h6 className="text-xl mt-5 font-semibold text-[#205C6C] font-playfair">
-                  Excelent Services
+                Appealing and entertaining.
+
                 </h6>
                 <p className="mt-2 mb-4 text-[#205C6C] font-Source">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  We strive to make our products as appealing and entertaining as possible as well as being incluesive and accessible and unbiased. 
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                  <i className="fas fa-poll text-xl"></i>
-                </div>
+                
                 <h5 className="text-xl mt-5 font-semibold text-[#205C6C] font-playfair">
-                  Grow your market
+                Encouraging new ideas 
                 </h5>
                 <p className="mt-2 mb-4 text-[#205C6C] font-Source">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Here at kathak we always encourage new ideas and new ways of thinking.
+                  That is why we always try to explore new ideas and new ways of thinking.
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                  <i className="fas fa-lightbulb text-xl"></i>
-                </div>
+                
                 <h5 className="text-xl mt-5 font-semibold text-[#205C6C] font-playfair">
-                  Launch time
+                Emotion over profit
                 </h5>
                 <p className="mt-2 mb-4 text-[#205C6C] font-Source">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  We want to make sure that we are always improving and evolving along with our core goals that is to put profit later and emphasize the emotion.
                 </p>
               </div>
             </div>
           </div>
         </section>
-
       </main>
         </>
     )
