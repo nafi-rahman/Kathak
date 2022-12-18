@@ -3,6 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Slider from "react-slick";
 
+
 export default function AnimateTest() {
   const settings = {
     dots: true,
@@ -11,7 +12,6 @@ export default function AnimateTest() {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    
   }  
   return (
       
@@ -19,27 +19,19 @@ export default function AnimateTest() {
           <div>
         <h2> Single Item</h2>
         <Slider {...settings}>
-          <div>
+          <div className="bg-black">
           <h1>1</h1>
             
           </div>
           <div>
             
-              <img src="/public/assets/bandarban.jpg"></img>
+             <h2>2</h2>
             
           </div>
           <div>
             <h3>3</h3>
           </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
+          
         </Slider>
       </div>    
         </>
