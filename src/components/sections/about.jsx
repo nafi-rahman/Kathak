@@ -12,23 +12,20 @@ export default function Abouts() {
 
           </div>
           <div className="container relative mx-auto">
-              <div className="items-center flex flex-wrap">
-                <div className="w-1/2 lg:w-1/2 px-4 ml-auto mr-auto text-center">
-                  <div className="px-12">
-                    <h1 className="text-[#205C6C] font-semibold text-5xl font-playfair py-10">
-                    What do we do?
-                    </h1>
-                    <br></br>
-                    <p className="mt-4 text-lg text-[#205C6C] font-Source">
-                    As a film studio we have chosen to create such art with social impacts. To us, creating a film is more than a part of entertainment. We are here to tell the stories that makes you “YOU”, the stories that has a purpose to serve people a better insight, the stories that will leave someone swirling in his/her own thoughts and last but not the least, the stories that will inspire people to live creatively. The mixture of bringing goodness to the society and urge to remove skeptical thoughts is what makes us a strong team as the Kathaks.
-
-                    </p>
-
-                  </div>
-                </div>
-
-              </div>
-          </div>
+  <div className="items-center flex flex-wrap">
+    <div className="w-full lg:w-1/2 px-4 ml-auto mr-auto text-center">
+      <div className="px-12">
+        <h1 className="text-[#205C6C] font-semibold text-5xl font-playfair py-10">
+          What do we do?
+        </h1>
+        <br></br>
+        <p className="mt-4 text-lg text-[#205C6C] font-Source">
+          As a film studio we have chosen to create such art with social impacts. To us, creating a film is more than a part of entertainment. We are here to tell the stories that makes you “YOU”, the stories that has a purpose to serve people a better insight, the stories that will leave someone swirling in his/her own thoughts and last but not the least, the stories that will inspire people to live creatively. The mixture of bringing goodness to the society and urge to remove skeptical thoughts is what makes us a strong team as the Kathaks.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
           <div
             className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
             style={{ height: "70px" }}
@@ -198,7 +195,7 @@ export default function Abouts() {
             </div>
             
 
-        <div className="grid grid-cols-3 place-content-center gap-4 ">
+        <div className="grid grid-cols-3 place-content-center gap-4 lg:grid lg:grid-cols-3 lg:Lplace-content-center lg:gap-4 sm:grid sm:grid-cols-1 sm:place-content-center sm:gap-4 ">
 
         <div className="w-full max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 pt-10">
             <div className="flex flex-col items-center pb-10">
@@ -224,7 +221,7 @@ export default function Abouts() {
 
       <div className="w-full max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 pt-10">
             <div className="flex flex-col items-center pb-10">
-                <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image" />
+                <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="/assets/raju.jpeg" alt="Bonnie image" />
                 <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Sayed Anwar Raju</h5>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Managing Director</span>
                 <div className="flex mt-4 space-x-3 md:mt-6">
@@ -235,8 +232,8 @@ export default function Abouts() {
 
       <div className="w-full max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 pt-10">
             <div className="flex flex-col items-center pb-10">
-                <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image" />
-                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Bonnie Green</h5>
+                <img className="w-24 h-24 mb-3 rounded-full shadow-lg object-cover" src="/assets/muna.jpeg" alt="Bonnie image" />
+                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Muna</h5>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Visual Designer</span>
                 <div className="flex mt-4 space-x-3 md:mt-6">
                     <p>hello</p>
@@ -246,11 +243,21 @@ export default function Abouts() {
 
       <div className="w-full max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 pt-10">
             <div className="flex flex-col items-center pb-10">
-                <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image" />
-                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Bonnie Green</h5>
+                <img className="w-24 h-24 mb-3 rounded-full shadow-lg object-cover" src="/assets/sifat.jpeg" alt="Bonnie image" />
+                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">sifat</h5>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Visual Designer</span>
                 <div className="flex mt-4 space-x-3 md:mt-6">
                     <p>hello</p>
+                </div>
+            </div>
+      </div>
+      <div className="w-full max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 pt-10">
+            <div className="flex flex-col items-center pb-10">
+                <img className="w-24 h-24 mb-3 rounded-full shadow-lg object-cover" src="/assets/nafi.jpg" alt="Bonnie image" />
+                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Nafiur Rahman</h5>
+                <span className="text-sm text-gray-500 dark:text-gray-400">Research and Development</span>
+                <div className="flex mt-4 space-x-3 md:mt-6">
+                <span className="text-sm text-neutral-900 dark:text-gray-400 text-center">“Sometimes science is more art than science.” — Rick</span>
                 </div>
             </div>
       </div>

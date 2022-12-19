@@ -6,15 +6,12 @@ import { motion,AnimatePresence } from 'framer-motion'
 export default function Portfoliop() {
     return (
         <>
-        <section className="bg-center bg-cover h-96" style={{backgroundImage: 'url("/assets/kathakP.jpg")'}}>
-        <div className="flex items-center justify-center h-full">
-          <div className="text-slate-900 text-center">
-            {/* <h1 className="text-5xl font-bold mb-4">Welcome to my website</h1>
-            <p className="text-xl mb-4">This is a section with a full width image as the background.</p> */}
-            
-          </div>
-        </div>
-      </section>
+        <section className="bg-center bg-cover h-96 sm:h-128 md:h-192 lg:h-256 xl:h-320" style={{backgroundImage: 'url("/assets/kathakP.jpg")'}}>
+  <div className="flex items-center justify-center h-full">
+    <div className="text-slate-900 text-center">
+    </div>
+  </div>
+</section>
       <div className=" grid-cols-2 grid-flow-row bg-[#205C6C] h-screen relative flex items-center justify-center">
 <p class="w-1/2 text-neutral-200 text-xl font-Source">
 Do you know, the process behind the creation of art is sometimes more dramatic and more artistic than the project itself? How do individuals with totally different creative preferences come together and share the same vision and how they work like organs of a human body in order to make the body move and do something extraordinary that wasn’t possible if any of  the organs would fail? <br></br>
