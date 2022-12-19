@@ -13,7 +13,7 @@ export default [
     },
     {
        title: 'AI Nerf Gun',
-       imgUrl: '/assets/kaptai.jpg',
+       imgUrl: '/assets/docu.jpg',
        stack: ['Python', 'C++', 'Robotics'],
        link: '',
     },

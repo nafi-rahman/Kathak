@@ -12,7 +12,7 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
 <img
             src={imgUrl}
             alt="portfolio" 
-    class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+    class="absolute inset-0 h-full w-full object-cover  opacity-75 transition-opacity group-hover:opacity-50 "
   />
 
   <div class="relative p-8">
