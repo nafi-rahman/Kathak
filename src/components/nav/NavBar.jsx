@@ -69,9 +69,9 @@ function NavBar() {
                             <li className="text-[#205c6c] hover:text-slate-900 font-Source">
                                 <Link to="/portfolio">Portfolio</Link>
                             </li>
-                            <li className="text-[#205c6c] hover:text-slate-900 font-Source">
+                            {/* <li className="text-[#205c6c] hover:text-slate-900 font-Source">
                                 <Link to="/contact">Contact</Link>
-                            </li>
+                            </li> */}
                         </ul>
 
                         <div className="mt-3 space-y-2 lg:hidden md:inline-block">
