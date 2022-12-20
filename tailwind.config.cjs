@@ -7,7 +7,8 @@ module.exports = {
       fontFamily: {
         playfair: ['Playfair Display', 'serif'],
         Source: ['Source Sans Pro', 'sans-serif'],
-      }
+      },
+      
     },
   },
   plugins: [require('@tailwindcss/line-clamp'),

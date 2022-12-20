@@ -195,7 +195,7 @@ export default function Abouts() {
             </div>
             
 
-        <div className="grid grid-cols-3 place-content-center gap-4 lg:grid lg:grid-cols-3 lg:Lplace-content-center lg:gap-4 sm:grid sm:grid-cols-1 sm:place-content-center sm:gap-4 ">
+        <div className="grid grid-cols-1 place-content-center gap-4 2xl:grid 2xl:grid-cols-3 2xl:Lplace-content-center 2xl:gap-4 xl:grid xl:grid-cols-3 xl:Lplace-content-center xl:gap-4 lg:grid lg:grid-cols-3 lg:Lplace-content-center lg:gap-4 sm:grid sm:grid-cols-1 sm:place-content-center sm:gap-4 ">
 
         <div className="w-full max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 pt-10">
             <div className="flex flex-col items-center pb-10">
@@ -203,7 +203,7 @@ export default function Abouts() {
                 <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Saad mahmud</h5>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Creative Director</span>
                 <div className="flex mt-4 space-x-3 md:mt-6">
-                    <p>hello</p>
+                    
                 </div>
             </div>
       </div>
@@ -214,7 +214,7 @@ export default function Abouts() {
                 <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Fardin Mahmud</h5>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Associate Creative Director</span>
                 <div className="flex mt-4 space-x-3 md:mt-6">
-                    <p>hello</p>
+                    
                 </div>
             </div>
       </div>
@@ -222,10 +222,10 @@ export default function Abouts() {
       <div className="w-full max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 pt-10">
             <div className="flex flex-col items-center pb-10">
                 <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="/assets/raju.jpeg" alt="Bonnie image" />
-                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Sayed Anwar Raju</h5>
+                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Sayeed Anwar Raju</h5>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Managing Director</span>
                 <div className="flex mt-4 space-x-3 md:mt-6">
-                    <p>hello</p>
+                    
                 </div>
             </div>
       </div>
@@ -233,10 +233,10 @@ export default function Abouts() {
       <div className="w-full max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 pt-10">
             <div className="flex flex-col items-center pb-10">
                 <img className="w-24 h-24 mb-3 rounded-full shadow-lg object-cover" src="/assets/muna.jpeg" alt="Bonnie image" />
-                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Muna</h5>
-                <span className="text-sm text-gray-500 dark:text-gray-400">Visual Designer</span>
+                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Morium Sultana Muna</h5>
+                <span className="text-sm text-gray-500 dark:text-gray-400">HR</span>
                 <div className="flex mt-4 space-x-3 md:mt-6">
-                    <p>hello</p>
+                    
                 </div>
             </div>
       </div>
@@ -244,10 +244,10 @@ export default function Abouts() {
       <div className="w-full max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 pt-10">
             <div className="flex flex-col items-center pb-10">
                 <img className="w-24 h-24 mb-3 rounded-full shadow-lg object-cover" src="/assets/sifat.jpeg" alt="Bonnie image" />
-                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">sifat</h5>
-                <span className="text-sm text-gray-500 dark:text-gray-400">Visual Designer</span>
+                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Sadaf Hasan</h5>
+                <span className="text-sm text-gray-500 dark:text-gray-400">Chief Editor & Post Production</span>
                 <div className="flex mt-4 space-x-3 md:mt-6">
-                    <p>hello</p>
+                    
                 </div>
             </div>
       </div>
@@ -257,7 +257,7 @@ export default function Abouts() {
                 <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Nafiur Rahman</h5>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Research and Development</span>
                 <div className="flex mt-4 space-x-3 md:mt-6">
-                <span className="text-sm text-neutral-900 dark:text-gray-400 text-center">“Sometimes science is more art than science.” — Rick</span>
+                
                 </div>
             </div>
       </div>
