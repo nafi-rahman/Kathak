@@ -4,8 +4,9 @@ import portfolio from "../../data/portfolio";
 import { useParams } from "react-router-dom";
 
 export default function PortfolioPage() {
-  const { projectId } = useParams();
-  const project = portfolio.find(portfolio => portfolio.id === projectId);
+  const {  projectId } = useParams();
+  const project = portfolio.find(project => project.id === projectId);
+  console.log(project); // log the value of the project variable
 
   if (project) {
     return (

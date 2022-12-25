@@ -24,7 +24,7 @@ function App() {
         <Route path='/modal' element={<Modal/>}/>
         <Route path='/modalFilm' element={<Modalfilm/>}/>
         <Route path='/modalShort' element={<Modalshort/>}/>
-        <Route path="/project" component={PortfolioPage} />
+        <Route path="/project/:projectId" element={<PortfolioPage/>} />
       </Routes>
       <Footer/>
     </div>
