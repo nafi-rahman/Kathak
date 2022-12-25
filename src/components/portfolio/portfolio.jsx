@@ -4,8 +4,9 @@ import PortfolioItem from './portfolioItem';
 
 
 function Portfolio() {
-   return (
 
+   return (
+      
       <section className="bg-white-900 ">
     <div
       className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center"
@@ -21,6 +22,7 @@ function Portfolio() {
                  title={project.title}
                  stack={project.stack}
                  link={project.link}
+                 index={project.id}
               />
            ))}
         </div>

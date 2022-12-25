@@ -1,14 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 
 
 
-function PortfolioItem({ title, imgUrl, stack, link }) {
+function PortfolioItem({ title, imgUrl, stack,index }) {
    return (
       
       
-      <motion.a  whileHover={{scale: 1.02}} href={link} className="group relative block bg-black">
+      <Link  to={`/project/${index}`}  className="group relative block bg-black">
 <img
             src={imgUrl}
             alt="portfolio" 
@@ -36,7 +37,7 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
       </div>
     </div>
   </div>
-</motion.a>
+</Link>
    )
 }
 

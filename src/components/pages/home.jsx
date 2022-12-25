@@ -13,7 +13,7 @@ export default function Home() {
       <FancyText/>
       <Showreel/>
       <Bookp/>
-
+      
     </div>
   );
 }

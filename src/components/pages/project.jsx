@@ -17,6 +17,7 @@ export default function Template() {
 
   return (
     <div>
+      <h1>hi</h1>
       <h1>{text}</h1>
       <img src={image} alt="Template" />
     </div>

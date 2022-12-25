@@ -9,6 +9,7 @@ import Portfoliop from './components/pages/Portfoliop'
 import Modal from './components/sections/modal'
 import Modalfilm from './components/sections/modalFilm'
 import Modalshort from './components/sections/modalShort'
+import PortfolioPage from './components/portfolio/portfoliopage'
 function App() {
   
 
@@ -23,7 +24,7 @@ function App() {
         <Route path='/modal' element={<Modal/>}/>
         <Route path='/modalFilm' element={<Modalfilm/>}/>
         <Route path='/modalShort' element={<Modalshort/>}/>
-
+        <Route path="/project" component={PortfolioPage} />
       </Routes>
       <Footer/>
     </div>
