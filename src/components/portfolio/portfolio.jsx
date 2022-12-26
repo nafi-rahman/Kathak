@@ -60,7 +60,7 @@ function Portfolio() {
         <Link to="/portfolio/project6">
         <PortfolioItem 
                  imgUrl={img6}
-                 title={"Terminal Website"}
+                 title={"Unicef and Bangladesh Govt CSSR Project"}
                  stack={"As a film studio we have chosen to create such art with social impacts. To us, creating a film is more than a part of entertainment. "}
               />
         </Link>
