@@ -6,7 +6,7 @@ import img2 from '/assets/renu.jpg';
 import img3 from '/assets/docu.jpg';
 import img4 from '/assets/deyall.jpg';
 import img5 from '/assets/bograa.jpg';
-import img6 from '/assets/kaptai.jpg';
+import img6 from '/assets/unicef.jpg';
 import { Link } from 'react-router-dom';
 
 function Portfolio() {
