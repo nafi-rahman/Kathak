@@ -17,7 +17,7 @@ export default function Portfolioproj5(){
   <div className="flex flex-col items-start justify-center h-full text-3xl font-bold text-neutral-800 pl-20 relative" >
   {/* <h1 className="font-palyfair xl:text-4xl lg:text-4xl md:text-xl sm:text-lg">STONE BRICKS</h1> */}
   <div className="bg-white p-5 bg-opacity-60 mt-40" style={{position: 'absolute', top: 0, left: 0, right: 0, width: '50%',height:'70%'}}>
-    <h1 className=" font-source font-light text-sm xl:text-lg lg:text-lg md:text-md sm:text-sm mt-0 xl:mt-10 lg:mt-10">This is first project we ever worked in. It is a documentary on a school who is trying their best to create a quality education system for special children. 
+    <h1 className=" font-source font-light text-sm xl:text-lg lg:text-lg md:text-md sm:text-sm mt-0 xl:mt-10 lg:mt-10">This is the first project we ever worked in. It is a documentary on a school who is trying their best to create a quality education system for special children. 
 
 
 
