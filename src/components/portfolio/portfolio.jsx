@@ -5,7 +5,7 @@ import img1 from '/assets/p1.jpg';
 import img2 from '/assets/renu.jpg';
 import img3 from '/assets/docu.jpg';
 import img4 from '/assets/deyall.jpg';
-import img5 from '/assets/bandarban.jpg';
+import img5 from '/assets/bograa.jpg';
 import img6 from '/assets/kaptai.jpg';
 import { Link } from 'react-router-dom';
 
@@ -53,7 +53,7 @@ function Portfolio() {
         <Link to="/portfolio/project5">
         <PortfolioItem 
                  imgUrl={img5}
-                 title={"Terminal Website"}
+                 title={"Bogra Buddhi Protibondhi and Autistic School"}
                  stack={"As a film studio we have chosen to create such art with social impacts. To us, creating a film is more than a part of entertainment. "}
               />
         </Link>

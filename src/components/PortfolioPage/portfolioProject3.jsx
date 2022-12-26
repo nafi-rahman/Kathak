@@ -1,12 +1,12 @@
 import React from "react";
-import img1 from "/assets/stonebricks/hero1.jpg"
-import img2 from "/assets/stonebricks/hero2.jpg"
-import img3 from "/assets/stonebricks/hero3.jpg"
+// import img1 from "/assets/stonebricks/hero1.jpg"
+// import img2 from "/assets/stonebricks/hero2.jpg"
+// import img3 from "/assets/stonebricks/hero3.jpg"
 
 export default function Portfolioproj3(){
     return(
         <>
-<div className="h-screen bg-center bg-cover" style={{ backgroundImage: `url(${img1})` }}>
+{/* <div className="h-screen bg-center bg-cover" style={{ backgroundImage: `url(${img1})` }}>
   <div className="flex items-center justify-center h-full text-3xl font-bold text-white">
     <h1 className="font-palyfair xl:text-4xl lg:text-4xl md:text-xl sm:text-lg">STONE BRICKS</h1>
   </div>
@@ -30,7 +30,7 @@ export default function Portfolioproj3(){
   </div>
 </div>
 
-
+ */}
 
         </>
     )
