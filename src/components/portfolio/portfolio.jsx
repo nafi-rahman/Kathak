@@ -25,43 +25,50 @@ function Portfolio() {
         <Link to="/portfolio/project1">
         <PortfolioItem 
                  imgUrl={img1}
-                 title={"Stone Bricks"}
-                 stack={"As a film studio we have chosen to create such art with social impacts. To us, creating a film is more than a part of entertainment. "}
+                 title={"Stone Bricks Ltd commercial"}
+                 genre={"Genre: Commercial"}
+                 date = {"Date: 2021"}
               />
         </Link>
         <Link to="/portfolio/project2">
         <PortfolioItem 
                  imgUrl={img2}
                  title={"Renu ke Renu"}
-                 stack={"As a film studio we have chosen to create such art with social impacts. To us, creating a film is more than a part of entertainment. "}
+                 genre={"Fiction/ philosophical/ Drama  "}
+                 date = {"Date: 2021"}
+
               />
         </Link>
         <Link to="/portfolio/project3">
         <PortfolioItem 
                  imgUrl={img3}
-                 title={"Amader Pathshala Documentry"}
-                 stack={"As a film studio we have chosen to create such art with social impacts. To us, creating a film is more than a part of entertainment. "}
+                 title={"Amader Pathshala"}
+                 genre={"Genre: Documenrary"}
+                 date = {"Date: 2019"}
               />
         </Link>
         <Link to="/portfolio/project4">
         <PortfolioItem 
                  imgUrl={img4}
-                 title={"Deyal"}
-                 stack={"As a film studio we have chosen to create such art with social impacts. To us, creating a film is more than a part of entertainment. "}
+                 title={"Deyale Mutiben na"}
+                 genre={"Genre: Comedy/ Satire/ Fiction"}
+                 date = {"Date: 2019"}
               />
         </Link>
         <Link to="/portfolio/project5">
         <PortfolioItem 
                  imgUrl={img5}
-                 title={"Bogra Buddhi Protibondhi and Autistic School"}
-                 stack={"As a film studio we have chosen to create such art with social impacts. To us, creating a film is more than a part of entertainment. "}
+                 title={"Amra korbo joy "}
+                 genre={"Genre: Documentary"}
+                 date = {"Date: 2018"}
               />
         </Link>
         <Link to="/portfolio/project6">
         <PortfolioItem 
                  imgUrl={img6}
-                 title={"Unicef and Bangladesh Govt CSSR Project"}
-                 stack={"As a film studio we have chosen to create such art with social impacts. To us, creating a film is more than a part of entertainment. "}
+                 title={"The CSSR project"}
+                 genre={"Genre: Educational "}
+                 date = {"Date: 2022"}
               />
         </Link>
         

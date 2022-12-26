@@ -14,8 +14,10 @@ export default function Portfolioproj3(){
 
 <div className="h-screen bg-center bg-cover transform-flip-x" style={{ backgroundImage: `url(${img2})` }}>
   <div className="flex flex-col items-start justify-center h-full text-3xl font-bold text-neutral-50 pl-20" >
-  <h1 className="font-palyfair xl:text-4xl lg:text-4xl md:text-xl sm:text-lg">STONE BRICKS</h1>
-  <h1 className="font-source xl:text-2xl lg:text-2xl md:text-xl sm:text-lg">text middle left</h1>
+  <h1 className="w-1/3 font-playfair font-bold text-sm xl:text-xl lg:text-xl md:text-lg sm:text-md">Amader Pathshala</h1><br></br>
+  <h1 className="w-1/3 font-source font-light text-sm xl:text-lg lg:text-lg md:text-md sm:text-sm">This is one of the first projects we worked on. We didn't get any fund for this project. This was a voluntary work from us as we were trying to learn the filmmaking process better. This is a documentary on a school that is trying to help the street children to get quality education.  
+
+We shot this documentary with whatever we had. We made our own lights with holders, energy bulbs and aluminium foils and used a cannon 800D photo camera which one of our cinematographer owned.</h1>
   </div>
 </div>
 

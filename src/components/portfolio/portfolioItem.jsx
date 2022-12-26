@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 
 
-function PortfolioItem({ title, imgUrl, stack, link }) {
+function PortfolioItem({ title, imgUrl, genre, date }) {
    return (
       
       
@@ -28,7 +28,10 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
         <p class="text-sm text-white h-12 mb-10">
        
         <p className="mt-4 text-sm text-neutral-50 font-Source">
-          {stack}
+          {genre}
+        </p>
+        <p className="mt-4 text-sm text-neutral-50 font-Source">
+          {date}
         </p>
             
         </p>

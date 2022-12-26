@@ -13,7 +13,7 @@ export default function Portfoliop() {
   </div>
 </section>
       <div className=" grid-cols-2 grid-flow-row bg-[#205C6C] h-screen relative flex items-center justify-center">
-<p class="w-1/2 text-neutral-200 text-xl font-Source">
+<p class=" w-1/2 text-neutral-200 text-md xl:text-xl lg:text-xl md:text-xl sm:text-md font-Source">
 Do you know, the process behind the creation of art is sometimes more dramatic and more artistic than the project itself? How do individuals with totally different creative preferences come together and share the same vision and how they work like organs of a human body in order to make the body move and do something extraordinary that wasn’t possible if any of  the organs would fail? <br></br>
 <br></br>
 We want to thank all the hard working and talented individuals who worked relentlessly hard day and night to make these visions come true on a screen. And we promise you, in a world where even the strongest do often fall, you will never have to walk alone.

@@ -17,7 +17,7 @@ export default function Bookp() {
         >
         <Link to="/modal">
         <div className="relative bg-[#0e191f] bg-opacity-40 p-8 pt-40 text-white">
-          <h3 className="text-4xl font-bold text-center font-playfair">D&nbsp;O&nbsp;C&nbsp;U&nbsp;M&nbsp;E&nbsp;N&nbsp;T</h3>
+          <h3 className="text-4xl font-bold text-center font-playfair">D&nbsp;O&nbsp;C&nbsp;U&nbsp;M&nbsp;E&nbsp;N&nbsp;T&nbsp;A&nbsp;R&nbsp;Y</h3>
         </div>
         </Link>
       </motion.a>
@@ -28,7 +28,7 @@ export default function Bookp() {
       >
         
         <div className="relative bg-[#0e191f] bg-opacity-40 p-8 pt-40 text-white">
-          <h3 className="text-4xl font-bold text-center font-playfair">D&nbsp;O&nbsp;C&nbsp;U&nbsp;M&nbsp;E&nbsp;N&nbsp;T</h3>
+          <h3 className="text-4xl font-bold text-center font-playfair">F&nbsp;I&nbsp;C&nbsp;T&nbsp;I&nbsp;O&nbsp;N</h3>
           
         </div>
       </motion.a>
@@ -40,7 +40,7 @@ export default function Bookp() {
       >
         
         <div className="relative bg-[#0e191f] bg-opacity-40 p-8 pt-40 text-white">
-          <h3 className="text-4xl font-bold text-center font-playfair">D&nbsp;O&nbsp;C&nbsp;U&nbsp;M&nbsp;E&nbsp;N&nbsp;T</h3>
+          <h3 className="text-4xl font-bold text-center font-playfair">C&nbsp;O&nbsp;M&nbsp;M&nbsp;E&nbsp;R&nbsp;C&nbsp;I&nbsp;A&nbsp;L</h3>
           
         </div>
       </motion.a>

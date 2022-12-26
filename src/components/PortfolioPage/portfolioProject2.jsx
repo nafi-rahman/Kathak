@@ -7,15 +7,19 @@ export default function Portfolioproj2(){
     return(
         <>
 <div className="h-screen bg-center bg-cover" style={{ backgroundImage: `url(${img1})` }}>
-  <div className="flex items-center justify-center h-full text-3xl font-bold text-white">
+  <div className="flex items-center justify-center h-full text-3xl font-bold text-neutral-50">
     {/* <h1 className="font-palyfair xl:text-4xl lg:text-4xl md:text-xl sm:text-lg">STONE BRICKS 2</h1> */}
   </div>
 </div>
 
 <div className="h-screen bg-center bg-cover transform-flip-x" style={{ backgroundImage: `url(${img2})`,transform: 'scaleX(-1)'  }}>
-  <div className="flex flex-col items-start justify-center h-full text-3xl font-bold text-white pl-20" style={{transform: 'scaleX(-1)'}}>
-  <h1 className="font-palyfair xl:text-4xl lg:text-4xl md:text-xl sm:text-lg">STONE BRICKS</h1>
-  <h1 className="font-source xl:text-2xl lg:text-2xl md:text-xl sm:text-lg">text middle left</h1>
+  <div className="flex flex-col items-start justify-center h-full font-Source text-3xl font-bold text-neutral-50 pl-20" style={{transform: 'scaleX(-1)'}}>
+  {/* <h1 className="font-palyfair xl:text-4xl lg:text-4xl md:text-xl sm:text-lg">STONE BRICKS</h1> */}
+  <h1 className="w-1/3 font-source font-light text-sm xl:text-xl lg:text-xl md:text-lg sm:text-md">Renu ke Renu is the story of a middle age woman who one day finds a diary from the past in her cabinet. And she is amazed by the constrast of expectations from the past and the reality of her life now. Throughout the story she tries to meet the expectations from the past of being free, happy and liberated. In the process she questions the idea of liberty and takes inspiration from the guy who liberated the country once. 
+
+Renu ke Renu is a project shot without any funds and we used neighbours, cha-wala mamas as actors for this. The film was shot for a film competition for the 100 years of Mujib. Unfortunately, the authorities never declared any winners. 
+
+This is a project really close to our heart as through the process of writing, creating the film we ourselves too felt the freedom, the happiness that the protagonist of the film was seeking.</h1>
   </div>
 </div>
 

@@ -7,16 +7,16 @@ export default function Portfolioproj1(){
     return(
         <>
 <div className="h-screen w-full bg-center bg-cover" style={{ backgroundImage: `url(${img1})` }}>
-  <div className="flex items-center justify-center h-full text-3xl font-bold text-white">
-    <h1 className="font-palyfair xl:text-4xl lg:text-4xl md:text-xl sm:text-lg">STONE BRICKS</h1>
+  <div className="flex items-center justify-center h-full text-3xl font-bold text-neutral-50">
+    <h1 className="font-palyfair xl:text-4xl lg:text-4xl md:text-xl sm:text-lg">Stone Bricks Ltd commercial </h1>
   </div>
 </div>
 
 
 <div className="h-screen w-full bg-center bg-cover" style={{ backgroundImage: `url(${img2})`,transform: 'scaleX(-1)' }}>
-  <div className="flex flex-col items-start justify-center h-full text-3xl font-bold text-white pl-20"style={{transform: 'scaleX(-1)'}}>
-  <h1 className="font-palyfair xl:text-4xl lg:text-4xl md:text-xl sm:text-lg">STONE BRICKS</h1>
-  <h1 className="font-source xl:text-2xl lg:text-2xl md:text-xl sm:text-lg">text middle left</h1>
+  <div className="flex flex-col items-start justify-center h-full text-3xl font-bold text-neutral-50 pl-20"style={{transform: 'scaleX(-1)'}}>
+  {/* <h1 className="font-palyfair xl:text-4xl lg:text-4xl md:text-xl sm:text-lg">STONE BRICKS</h1> */}
+  <h1 className="w-1/3 font-source font-light xl:text-xl lg:text-xl md:text-lg sm:text-md">Stone Bricks Ltd is a eco-friendly brick manufacturing company. A sister company of Jamuna group. We were hired to make a promotional documentary on them. It was a project we had to work immensely hard on. It was hot inside the klin and we had to shoot inside of the factory. Thanks to our brilliant team, we finished the shooting in 2 days and ultimately handed over the first draft of  project to them in 6 days.</h1>
   </div>
 </div>
 

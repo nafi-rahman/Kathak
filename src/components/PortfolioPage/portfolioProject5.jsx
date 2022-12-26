@@ -9,14 +9,22 @@ export default function Portfolioproj5(){
 <div className="h-screen bg-center bg-cover bg-black" style={{ backgroundImage: `url(${img1})`}}>
   
   <div className="flex items-center justify-center h-full text-3xl font-bold text-neutral-800">
-    <h1 className="font-palyfair xl:text-4xl lg:text-4xl md:text-xl sm:text-lg">STONE BRICKS</h1>
+    <h1 className="font-palyfair xl:text-4xl lg:text-4xl md:text-xl sm:text-lg">Amra korbo joy </h1>
   </div>
 </div>
 
 <div className="h-screen bg-center bg-cover transform-flip-x" style={{ backgroundImage: `url(${img2})` }}>
-  <div className="flex flex-col items-start justify-center h-full text-3xl font-bold text-neutral-800 pl-20" >
-  <h1 className="font-palyfair xl:text-4xl lg:text-4xl md:text-xl sm:text-lg">STONE BRICKS</h1>
-  <h1 className="font-source xl:text-2xl lg:text-2xl md:text-xl sm:text-lg">text middle left</h1>
+  <div className="flex flex-col items-start justify-center h-full text-3xl font-bold text-neutral-800 pl-20 relative" >
+  {/* <h1 className="font-palyfair xl:text-4xl lg:text-4xl md:text-xl sm:text-lg">STONE BRICKS</h1> */}
+  <div className="bg-white p-5 bg-opacity-60 mt-40" style={{position: 'absolute', top: 0, left: 0, right: 0, width: '50%',height:'70%'}}>
+    <h1 className=" font-source font-light text-sm xl:text-lg lg:text-lg md:text-md sm:text-sm mt-0 xl:mt-10 lg:mt-10">This is first project we ever worked in. It is a documentary on a school who is trying their best to create a quality education system for special children. 
+
+
+
+This was a voluntary job as we were trying to learn the filmmaking process. With a heart filled of passion, one hundred taka per day decoration lights, a cannon 800D camera and a borrowed microphone we shot this project in two days. 
+
+We stayed in 300 taka hotel room with no windows for that night and so on. But this project is a project that we may never will forget. This is the point we started our journey from. To us, This is and always will be the start of all the magical things that we witnessed through the journey and yet to witness.</h1>
+  </div>
   </div>
 </div>
 
