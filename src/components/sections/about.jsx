@@ -189,7 +189,7 @@ export default function Abouts() {
                   Here are our heroes
                 </h2>
                 <p className="text-lg leading-relaxed m-4 text-neutral-50 font-Source">
-                  The team at kathak that makes all of this possible, turining ideas into reality and pushing the barrier of what's possible and what's not.
+                  The team at kathak that makes all of this possible, turning ideas into reality and pushing the barrier of what's possible and what's not.
                 </p>
               </div>
             </div>
