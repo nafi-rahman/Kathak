@@ -9,6 +9,12 @@ import Portfoliop from './components/pages/Portfoliop'
 import Modal from './components/sections/modal'
 import Modalfilm from './components/sections/modalFilm'
 import Modalshort from './components/sections/modalShort'
+import Portfolioproj1 from './components/PortfolioPage/portfolioProject1'
+import Portfolioproj2 from './components/PortfolioPage/portfolioProject2'
+import Portfolioproj3 from './components/PortfolioPage/portfolioProject3'
+import Portfolioproj4 from './components/PortfolioPage/portfolioProject4'
+import Portfolioproj5 from './components/PortfolioPage/portfolioProject5'
+import Portfolioproj6 from './components/PortfolioPage/portfolioProject6'
 function App() {
   
 
@@ -23,6 +29,12 @@ function App() {
         <Route path='/modal' element={<Modal/>}/>
         <Route path='/modalFilm' element={<Modalfilm/>}/>
         <Route path='/modalShort' element={<Modalshort/>}/>
+        <Route path='/portfolio/project1' element={<Portfolioproj1/>}/>
+        <Route path='/portfolio/project2' element={<Portfolioproj2/>}/>
+        <Route path='/portfolio/project3' element={<Portfolioproj3/>}/>
+        <Route path='/portfolio/project4' element={<Portfolioproj4/>}/>
+        <Route path='/portfolio/project5' element={<Portfolioproj5/>}/>
+        <Route path='/portfolio/project6' element={<Portfolioproj6/>}/>
 
       </Routes>
       <Footer/>
