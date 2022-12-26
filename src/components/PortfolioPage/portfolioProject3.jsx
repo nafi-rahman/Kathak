@@ -2,8 +2,13 @@ import React from "react";
 import img1 from "/assets/amader/hero1.jpg"
 import img2 from "/assets/amader/hero2.jpg"
 import img3 from "/assets/amader/hero3.jpg"
+import { useEffect } from "react";
 
 export default function Portfolioproj3(){
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
     return(
         <>
 <div className="h-screen bg-center bg-cover" style={{ backgroundImage: `url(${img1})` }}>
