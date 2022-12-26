@@ -21,7 +21,7 @@ export default function Portfolioproj3(){
 
 <div className="h-screen bg-center bg-cover" style={{ backgroundImage: `url(${img3})` }}>
   <div className="flex items-center justify-center h-full text-3xl font-bold text-white rounded-lg	">
-  <a className="inline-block rounded-full border border-[#205C6C] p-3 text-[#205C6C] hover:bg-[#205C6C] hover:text-white focus:outline-none focus:ring active:bg-indigo-500" href="/download">
+  <a className="inline-block rounded-full border border-[#205C6C] p-3 text-[#205C6C] hover:bg-[#205C6C] hover:text-white focus:outline-none focus:ring active:bg-indigo-500" href="https://drive.google.com/file/d/1yOy4sJKvSnTqnoIYbZvky96XZKs97T8R/view">
         <span className="sr-only"> Download </span>
         <svg className="h-10 w-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
