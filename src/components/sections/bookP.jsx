@@ -12,7 +12,7 @@ export default function Bookp() {
             <h1 className="tracing-widest text-5xl font-playfair text-[#0e191f] text-center">W&nbsp;I&nbsp;T&nbsp;H&nbsp;&nbsp; K&nbsp;A&nbsp;T&nbsp;H&nbsp;A&nbsp;K</h1>
             <br></br>
         </div>  
-        <motion.a className="w-full relative block overflow-hidden  bg-[url(https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1592&q=80)] bg-cover bg-center bg-no-repeat"
+        <motion.a className="w-full relative block overflow-hidden  bg-[url('/assets/documentary.jpg')] bg-cover bg-center bg-no-repeat"
             whileHover={{ scale: 1.01,opacity: 0.9 }}
         >
         <Link to="/modal">
@@ -23,7 +23,7 @@ export default function Bookp() {
       </motion.a>
       
       <Link to="/modalFilm">
-      <motion.a href="#" className="w-full relative block overflow-hidden  bg-[url('/assets/kaptai.jpg')] bg-cover bg-center bg-no-repeat"
+      <motion.a href="#" className="w-full relative block overflow-hidden  bg-[url('/assets/fiction.jpg')] bg-cover bg-center bg-no-repeat"
          whileHover={{ scale: 1.01,opacity: 0.9 }}
       >
         
@@ -35,7 +35,7 @@ export default function Bookp() {
       </Link>
 
       <Link to="/modalShort">
-      <motion.a href="#" className="w-full relative block overflow-hidden  bg-[url('/assets/bandarban.jpg')] bg-cover bg-center bg-no-repeat"
+      <motion.a href="#" className="w-full relative block overflow-hidden  bg-[url('/assets/commercial.jpg')] bg-cover bg-center bg-no-repeat"
          whileHover={{ scale: 1.01,opacity: 0.9 }}
       >
         
