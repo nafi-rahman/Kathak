@@ -35,9 +35,6 @@ This is more than a project to us. This is the journey that ultimately curved us
       </a> */}
   </div>
 </div>
-
-
-
         </>
     )
 }
