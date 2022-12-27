@@ -1,9 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import { useEffect } from "react";
 
 export default function Modalfilm() {
-    
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
     return (
       <>
       <div className="w-screen h-screen bg-neutral-50 flex justify-center items-center text-neutral-800 font-bold " >
