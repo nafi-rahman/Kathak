@@ -1,6 +1,4 @@
 import React from "react";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
 import Slider from "react-slick";
 
 

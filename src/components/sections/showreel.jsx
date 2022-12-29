@@ -1,6 +1,5 @@
 import React from "react";
 import ShowreelItem from "./showreelItem";
-import showreel from "../../data/showreel";
 
 export default function Showreel() {
     

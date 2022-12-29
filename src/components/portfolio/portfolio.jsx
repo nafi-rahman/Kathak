@@ -1,5 +1,4 @@
 import React from 'react';
-import portfolio from '../../data/portfolio';
 import PortfolioItem from './portfolioItem';
 import img1 from '/assets/p1.jpg';
 import img2 from '/assets/renu.jpg';

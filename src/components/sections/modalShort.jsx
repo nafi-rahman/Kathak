@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { useEffect } from "react";
 
 export default function Modalshort() {

@@ -1,7 +1,6 @@
 import React from "react";
-import { motion, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 import {Typewriter} from "react-simple-typewriter";
-import logo from "/assets/kathak.png";
 
 
 export default function HeroSection() {
