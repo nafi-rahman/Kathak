@@ -2,13 +2,13 @@ import React from "react";
 import test from "/assets/test.mp4";
 export default function ShowreelItem() {
   return (
-    <a href="/" class="group relative block bg-black border-4 border-black">
-  <video class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50" autoPlay muted  >
-  <source src="#" type="video/mp4"/>
+    <div class="group relative block bg-black border-4 border-black">
+  <video class="absolute inset-0 h-full w-full object-cover z-10" controls  >
+  <source src={test} type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 
-  <div class="relative p-8">
+  <div class="relative p-20">
     
 
     {/* <p class="text-2xl font-bold text-white">title of the video</p> */}
@@ -23,7 +23,7 @@ export default function ShowreelItem() {
       </div>
     </div>
   </div>
-</a>
+</div>
 
   );
 }
