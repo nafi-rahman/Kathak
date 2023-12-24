@@ -210,7 +210,7 @@ export default function Abouts() {
 
       <div className="w-full max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 pt-10">
             <div className="flex flex-col items-center pb-10">
-                <img className="w-24 h-24 mb-3 rounded-full shadow-lg object-cover" src="/assets/fardin.jpeg" alt="Bonnie image" />
+                <img className="w-24 h-24 mb-3 rounded-full shadow-lg object-cover" src="/assets/fardin.jpg" alt="Bonnie image" />
                 <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Fardin Mahmud</h5>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Associate Creative Director</span>
                 <div className="flex mt-4 space-x-3 md:mt-6">
@@ -221,7 +221,7 @@ export default function Abouts() {
 
       <div className="w-full max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 pt-10">
             <div className="flex flex-col items-center pb-10">
-                <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="/assets/raju.jpeg" alt="Bonnie image" />
+                <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="/assets/raju.jpg" alt="Bonnie image" />
                 <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Sayeed Anwar Raju</h5>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Managing Director</span>
                 <div className="flex mt-4 space-x-3 md:mt-6">
@@ -232,7 +232,7 @@ export default function Abouts() {
 
       <div className="w-full max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 pt-10">
             <div className="flex flex-col items-center pb-10">
-                <img className="w-24 h-24 mb-3 rounded-full shadow-lg object-cover" src="/assets/muna.jpeg" alt="Bonnie image" />
+                <img className="w-24 h-24 mb-3 rounded-full shadow-lg object-cover" src="/assets/muna.jpg" alt="Bonnie image" />
                 <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Morium Sultana Muna</h5>
                 <span className="text-sm text-gray-500 dark:text-gray-400">HR</span>
                 <div className="flex mt-4 space-x-3 md:mt-6">
@@ -243,7 +243,7 @@ export default function Abouts() {
 
       <div className="w-full max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 pt-10">
             <div className="flex flex-col items-center pb-10">
-                <img className="w-24 h-24 mb-3 rounded-full shadow-lg object-cover" src="/assets/sifat.jpeg" alt="Bonnie image" />
+                <img className="w-24 h-24 mb-3 rounded-full shadow-lg object-cover" src="/assets/sifat.jpg" alt="Bonnie image" />
                 <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Sadaf Hasan</h5>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Director of photography</span>
                 <div className="flex mt-4 space-x-3 md:mt-6">
