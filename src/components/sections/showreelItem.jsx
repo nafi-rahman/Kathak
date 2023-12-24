@@ -1,47 +1,12 @@
-import React, { useState, useEffect, useRef } from 'react';
-import test from '/assets/test.mp4';
-
+import React from "react";
+import test from "/assets/test.mp4";
 export default function ShowreelItem() {
-  const [loadVideo, setLoadVideo] = useState(false);
-  const videoRef = useRef(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        // Check if the video element is intersecting
-        if (entry.isIntersecting) {
-          setLoadVideo(true); // Set to load the video
-          observer.unobserve(entry.target); // Stop observing once loaded
-        }
-      });
-    }, {
-      threshold: 0.5 // Trigger when 50% of the video is visible
-    });
-
-    const videoElement = videoRef.current;
-    if (videoElement) {
-      observer.observe(videoElement);
-    }
-
-    // Clean up the observer on component unmount
-    return () => {
-      if (videoElement) {
-        observer.unobserve(videoElement);
-      }
-    };
-  }, []);
-
   return (
-    <div className="group relative block bg-black border-4 border-black">
-      <video 
-        ref={videoRef} 
-        className="absolute inset-0 h-full w-full object-cover z-10" 
-        controls
-        style={{ display: loadVideo ? 'block' : 'none' }}
-      >
-        {loadVideo && <source src={test} type="video/mp4"/>}
-        Your browser does not support the video tag.
-      </video>
+    <div class="group relative block bg-black border-4 border-black">
+  <video class="absolute inset-0 h-full w-full object-cover z-10" controls  >
+  <source src={test} type="video/mp4"/>
+  Your browser does not support the video tag.
+</video>
 
   <div class="relative p-20">
     
